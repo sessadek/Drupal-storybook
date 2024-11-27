@@ -1,0 +1,18 @@
+.alert {
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  position: relative;
+  padding: 8px 40px 8px 20px;
+}
+
+.alert .btn-close {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.alert-primary {
+  background-color: #cfe2ff;
+}

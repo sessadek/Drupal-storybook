@@ -1,0 +1,26 @@
+.article__card {
+  background-color: gainsboro;
+  padding: 20px;
+  margin: 20px;
+}
+
+.article__card--yellow {
+  background-color: yellow;
+}
+
+.article__card--red {
+  background-color: red;
+}
+
+.article__title {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article__card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

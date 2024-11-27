@@ -1,0 +1,37 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/11.0.x/core/assets/schemas/v1/metadata.schema.json
+name: Card
+props:
+  type: object
+  required:
+    - title
+    - teaser
+  properties:
+    title:
+      type: string
+      title: Title
+      description: "Title description"
+    teaser:
+      type: string
+      title: teaser
+      description: "teaser description"
+    author:
+      type: string
+      title: author
+      description: "Author description."
+    # bg_color:
+    #   type: string
+    #   title: Background Color
+    #   description: "Background color to use for the Card, one of 'yellow' or 'red'."
+    #   # The enum directive restricts the possible values in the element to our list.
+    #   enum: ['yellow', 'red', null]
+slots:
+  image:
+    title: Image
+    description: "Image included src and alt"
+    examples:
+      - <img src="https://picsum.photos/id/237/200/300" alt="Specific Image">
+  cta:
+    title: CTA
+    description: "CTA included href and link text"
+    examples:
+      - <a class="btn" href="#">Link Text</a>

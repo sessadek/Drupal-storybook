@@ -1,0 +1,22 @@
+.btn {
+  border: 1px solid red;
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px;
+  display: inline-block;
+}
+
+
+.btn--primary {
+  background-color: green !important;
+}
+
+
+.btn--secondary {
+  background-color: blue !important;
+}

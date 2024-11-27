@@ -1,0 +1,10 @@
+{%
+  set classes = [
+    'btn',
+    color ? 'btn--' ~ color|clean_class,
+  ]
+%}
+{# {{ attributes.addClass(classes|join(' ')) }} #}
+{% if link_href %}
+  <a href="{{ link_href }}">{{ link_title }}</a>
+{% endif %}

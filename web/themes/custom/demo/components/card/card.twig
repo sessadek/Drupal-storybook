@@ -1,0 +1,22 @@
+{# {%
+  set classes = [
+    'article__card',
+    bg_color ? 'article__card--' ~ bg_color|clean_class,
+  ]
+%} #}
+{# {{ attributes.addClass(classes|join(' ')) }} #}
+<article>
+  {% if title %}
+    <h3 class="article__title">{{ title }}</h3>
+  {% endif %}
+  {% block image %}{% endblock %}
+  {% if teaser %}
+    <div class="article__teaser">{{ teaser }}</div>
+  {% endif %}
+  {% if author %}
+    <div class="article__author">
+      <em>{{ author }}</em>
+    </div>
+  {% endif %}
+  {% block cta %}{% endblock %}
+</article>

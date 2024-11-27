@@ -1,0 +1,6 @@
+name: demo
+type: theme
+description: 'Demo theme'
+core_version_requirement: ^11
+base theme: stable9
+# enforce_prop_schemas: true

@@ -1,0 +1,40 @@
+colors_background_color:
+  label: Background color
+  description: Similar to the contextual text color classes, easily set the background of an element to any contextual class.
+  options:
+    bg-primary: Primary
+    bg-secondary: Secondary
+    bg-success: Success
+    bg-danger: Danger
+    bg-warning: Warning
+    bg-info: Info
+    bg-light: Light
+    bg-dark: Dark
+    bg-white: White
+    bg-transparent: Transparent
+  previewed_with:
+    - border
+    - p-2
+text_color:
+  label: Text color
+  category: Color
+  previewed_with:
+    - fr-p-1v
+  options:
+    fr-text-action-high--blue-france: Action-high blue France
+    fr-text-inverted--blue-france:
+      label: Inverted blue France
+      previewed_with:
+        - fr-background-action-high--blue-france
+typography:
+  label: Typography
+  description: "Material Design's text sizes and styles were developed to balance content density and reading comfort under typical usage conditions. https://m2.material.io/develop/web/components/typography"
+  options:
+    mdc-typography--headline1:
+      label: Headline 1.
+      description: The largest text on the screen, reserved for short, important text or numerals.
+    mdc-typography--headline2: Headline 2
+    mdc-typography--headline3: Headline 3
+    mdc-typography--headline4: Headline 4
+    mdc-typography--headline5: Headline 5
+    mdc-typography--headline6: Headline 6
